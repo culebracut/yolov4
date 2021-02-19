@@ -1,0 +1,3 @@
+nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
+yolov4_1_3_608_608_fp16.engine
+yolov4-416.trt
