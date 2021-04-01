@@ -4,7 +4,7 @@ perf-measurement-interval-sec=10
 #gie-kitti-output-dir=streamscl
 
 [tiled-display]
-enable=0
+enable=1
 rows=2
 columns=2
 width=1920
@@ -18,10 +18,10 @@ gpu-id=0
 nvbuf-memory-type=0
 
 [source0]
-enable=0
+enable=1
 type=4
 #uri=rtsp://admin:lemonlime@71.197.203.67:554/h264Preview_01_main
-uri=rtsp://admin:lemonlime@10.0.0.19:554/h264Preview_01_main
+uri=rtsp://admin:lemonlime@10.0.0.20:554/h264Preview_01_main
 num-sources=1
 drop-frame-interval=2
 camera-width=2560
@@ -81,21 +81,21 @@ camera-width=640
 camera-height=480
 camera-fps-n=30
 camera-fps-d=1
-camera-v4l2-dev-node=0
+camera-v4l2-dev-node=2
 num-sources=1
 
 [source5]
-enable=0
+enable=1
 #Type - 1=CameraV4L2 2=URI 3=MultiURI 4=RTSP 5=CSI
 type=5
 camera-width=1280
 camera-height=720
-camera-fps-n=120
+camera-fps-n=60
 camera-fps-d=1
 camera-csi-sensor-id=0
 
 [source6]
-enable=0
+enable=1
 #Type - 1=CameraV4L2 2=URI 3=MultiURI 4=RTSP 5=CSI
 type=5
 camera-width=3264
